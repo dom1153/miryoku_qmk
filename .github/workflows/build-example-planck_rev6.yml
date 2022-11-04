@@ -1,7 +1,7 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example planck/rev6'
+name: 'Custom planck/rev6'
 on:
   - workflow_dispatch
 jobs:
@@ -9,3 +9,5 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       keyboard: '["planck/rev6"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
