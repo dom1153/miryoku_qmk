@@ -11,3 +11,4 @@ jobs:
       keyboard: '["planck/rev6"]'
       alphas: '["qwerty"]'
       nav: '["vi"]'
+      mapping: '["extended_thumbs"]'
